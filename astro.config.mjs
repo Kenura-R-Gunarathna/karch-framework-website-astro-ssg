@@ -8,6 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'KARCH Framework',
+			favicon: '/favicon.png',
 			logo: {
 				src: './src/assets/karch-logo.png',
 			},

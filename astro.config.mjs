@@ -7,7 +7,7 @@ export default defineConfig({
 	site: 'https://karch.krag.lk',
 	integrations: [
 		starlight({
-			title: 'KARCH Framework',
+			title: 'KARCH',
 			favicon: '/favicon.png',
 			logo: {
 				src: './src/assets/karch-logo.png',

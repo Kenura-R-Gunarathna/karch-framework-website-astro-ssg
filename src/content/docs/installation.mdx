@@ -1,0 +1,74 @@
+---
+title: Installation
+description: Get started with KARCH by installing it via Composer or Git.
+---
+
+import { Tabs, TabItem, Steps } from '@astrojs/starlight/components';
+
+KARCH is designed to be easy to install and get started with. You can choose to install it using **Composer** (recommended) or by cloning the repository via **Git**.
+
+## Choose your installation method
+
+<Tabs>
+  <TabItem label="Composer" icon="seti:composer">
+    
+Composer is the recommended way to install KARCH. It automatically handles dependencies and sets up the project structure for you.
+
+<Steps>
+
+1.  Open your terminal.
+
+2.  Run the create-project command:
+
+    ```bash
+    composer create-project krag/karch example-app
+    ```
+
+    Replace `example-app` with your desired project name.
+
+3.  Navigate to your project directory:
+
+    ```bash
+    cd example-app
+    ```
+
+</Steps>
+
+  </TabItem>
+  <TabItem label="Git" icon="seti:git">
+
+If you prefer to manage the project manually or want to contribute to the framework, you can clone the repository.
+
+<Steps>
+
+1.  Open your terminal.
+
+2.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/Kenura-R-Gunarathna/KARCH-Framework.git
+    ```
+
+3.  Navigate to the project directory:
+
+    ```bash
+    cd KARCH-Framework
+    ```
+
+4.  Install dependencies (if you have Composer installed):
+
+    ```bash
+    composer install
+    ```
+
+</Steps>
+
+  </TabItem>
+</Tabs>
+
+## Next Steps
+
+Once installed, you can start building your application!
+
+- Check out the [Routes](/routes) documentation to define your first route.
+- Learn how to use [Controllers](/controllers) to organize your logic.

@@ -1,0 +1,30 @@
+---
+import DefaultFooter from '@astrojs/starlight/components/Footer.astro';
+import type { Props } from '@astrojs/starlight/props';
+---
+
+<DefaultFooter {...Astro.props} />
+
+<div class="krag-footer">
+  <p>
+    &copy; Copyright 2025 <a href="https://krag.lk" target="_blank" rel="noopener noreferrer">KRAG</a>. All rights reserved.
+  </p>
+</div>
+
+<style>
+  .krag-footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+    padding-top: 1rem;
+    text-align: center;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+  }
+  .krag-footer a {
+    color: var(--sl-color-text-accent);
+    text-decoration: none;
+  }
+  .krag-footer a:hover {
+    text-decoration: underline;
+  }
+</style>

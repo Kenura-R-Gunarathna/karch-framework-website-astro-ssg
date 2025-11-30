@@ -4,9 +4,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://karch.krag.lk',
 	integrations: [
 		starlight({
 			title: 'KARCH Framework',
+			logo: {
+				src: './src/assets/karch-logo.png',
+			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Kenura-R-Gunarathna/KARCH-Framework' }],
 			sidebar: [
 				{
